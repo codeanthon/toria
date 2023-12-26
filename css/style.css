@@ -11,7 +11,7 @@ html{
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
-    background-color: cornsilk;
+    background-color: rgb(249, 232, 235);
     padding: 2% 2%;
     border: none;
  }
@@ -54,7 +54,7 @@ html{
 
   /* styling services  */
   #service{
-    background-color: antiquewhite;
+    background-color: rgb(249, 232, 235);
     padding-bottom: 5%;
   }
   #service h1{
@@ -171,51 +171,106 @@ html{
   /* styling contact done */
 
   /* styling footer  */
-  #abt{
-    display: flex;
-    justify-content: space-between;
+  #foot{
     border: 2px solid black;
-    background-color: cornsilk;
-    border: none;
-    padding-left: 20px;
-    padding-right: 30px;
-  }
-  .foot{
     display: flex;
-    gap: 20px;
+    background-color: rgb(249, 232, 235);;
+    border: none;
   }
-  .foot img{
-    width: 200px;
-    border-radius: 20%;
+  #foot img{
+    width: 30%;
+    padding-right: 20px;
   }
-  .foot p{
-    font-size: 5rem;
-    font-style: italic;
+  #foot h3{
+    font-size: 3rem;
     color: goldenrod;
-    font-weight: bold;
+    padding-top: 10px;
   }
-  .copy{
-    font-size: 1.8rem;
-    padding-top: 5%;
-    text-transform: capitalize;
-    margin-right: 20px;
-    font-weight: bold;
+  .imn{
+    display: flex;
   }
-  .ig{
-    padding: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: lowercase;
-    font-size: 20px !important;
-  }
-  .ig a{
-    text-decoration: none;
-    color: goldenrod;
+  .social{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
   }
   .all{
     border: 1px solid black;
     background-color: dimgray;
     border: none;
   }
+  
+  .foot2{
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+  }
+  
   /* styling footer done */
+
+
+  /* styling mobile  */
+  @media (min-width: 250px) and (max-width: 900px){
+    .serve{
+      display: flex;
+      padding-left: 5%;
+      padding-right: 5%;
+      flex-direction: column;
+    }
+    #service img{
+      width: 100%;
+      height: 80%;
+      border-radius: 1rem;
+    }
+    .serve div{
+      height: 80vh;
+      border: 1px solid black;
+      background-color: cadetblue;
+      color: whitesmoke;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 0 0 30px;
+      transition: 0.5s;
+      margin-bottom: 40px;
+    }
+    .serve p{
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 2%;
+      font-weight: 2rem;
+    }
+    #service{
+      background-color: antiquewhite;
+      padding-bottom: 5%;
+      padding-top: 10%;
+    }
+    #service h1{
+      text-align: center;
+      margin-bottom: 5%;
+      text-transform: uppercase;
+      font-size: 3.5rem;
+      font-style: italic;
+      color: darkblue;
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+    .map iframe{
+      height: 60vh;
+      width: 100%;
+      margin-top: 12%;
+    }
+    .cont{
+      display: flex;
+      margin-top: 4%;
+      flex-direction: column;
+    }
+    .det ul{
+      display: block;
+    }
+  }
+  /* styling mobile done */
