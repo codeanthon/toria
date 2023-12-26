@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+ /* styling header  */
+ #header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 2% 2%;
+    border: none;
+ }
+ .det ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+ }
+ .det a{
+    text-decoration: none;
+    color: black;
+ }
+ .det a:hover{
+    color: lightcoral;
+ }
+ .logo{
+    display: flex;
+    gap: 20px;
+ }
+ .logo img{
+    width: 80px;
+    border-radius: 80%;
+ }
+ .logo p{
+    font-size: 3rem;
+    font-style: italic;
+    color: goldenrod;
+    font-weight: bold;
+ }
+ /* styling header done */
+
+  /* styling banner  */
+.banner{
+    background-image: url(/img/copy.jpg);
+    height: 50vh;
+}
+  /* styling banner done */
+
+  /* styling services  */
+  #service{
+    background-color: antiquewhite;
+    padding-bottom: 5%;
+  }
+  #service h1{
+    text-align: center;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-style: italic;
+    color: darkblue;
+    padding-top: 8%;
+    padding-bottom: 20px;
+  }
+  .serve{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .serve div{
+    height: 50vh;
+    border: 1px solid black;
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 30px;
+    transition: 0.5s;
+  }
+  .serve div:hover{
+    transform: translateY(-15px)
+  }
+  #service img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+  }
+  .serve p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 2rem;
+  }
+  .serve p:hover{
+    color: goldenrod;
+  }
+  /* styling services done */
+
+  /* styling contact  */
+  #contact{
+    margin: 5% 5%;
+    background-color: blanchedalmond;
+    padding-bottom: 4%;
+    padding-top: 2%;
+  }
+  #contact h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-style: italic;
+  }
+  .cont{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-evenly;
+  }
+  .map iframe{
+    height: 60vh;
+  }
+  .rite form{
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 2%;
+    border: 2px solid black;
+    border: none;
+}
+.rite input{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 8vh;
+}
+.rite input:focus{
+    outline: none;
+    border: 2px solid black;
+}
+.rite form >div{
+    margin-bottom: 3%;
+}
+.rite textarea{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.rite textarea:focus{
+    outline: none;
+    border: 2px solid black;
+}
+.rite button{
+    font-size: 1.6rem;
+    width: 100%;
+    background-color: green;
+    color: gold;
+    padding: 8px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.rite button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+  /* styling contact done */
+
+  /* styling footer  */
+  #abt{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: cornsilk;
+    border: none;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .foot{
+    display: flex;
+    gap: 20px;
+  }
+  .foot img{
+    width: 200px;
+    border-radius: 20%;
+  }
+  .foot p{
+    font-size: 5rem;
+    font-style: italic;
+    color: goldenrod;
+    font-weight: bold;
+  }
+  .copy{
+    font-size: 1.8rem;
+    padding-top: 5%;
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  .ig{
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 20px !important;
+  }
+  .ig a{
+    text-decoration: none;
+    color: goldenrod;
+  }
+  .all{
+    border: 1px solid black;
+    background-color: dimgray;
+    border: none;
+  }
+  /* styling footer done */
